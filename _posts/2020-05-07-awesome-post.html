@@ -1,0 +1,18 @@
+---
+layout: post
+title: Try to Add Author Bio
+permalink: lett
+author: daren_ma
+comments: true
+---
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Very Important</title>
+</head>
+<body>
+{% if author.bio %}
+    {% include author_bio.html %}
+{% endif %}
+</body>
+</html>
