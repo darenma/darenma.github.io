@@ -230,4 +230,4 @@ deploy:
   type: git
   repo: https://github.com/darenma/darenma.github.io
   # example, https://github.com/hexojs/hexojs.github.io
-  branch: master
+  branch: main
