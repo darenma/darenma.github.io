@@ -225,9 +225,3 @@ custom_font:
 # Ensure visitor to get the latest version of source.
 # Set a higher value before creating new release.
 source_version: 20240606
-
-deploy:
-  type: git
-  repo: https://github.com/darenma/darenma.github.io
-  # example, https://github.com/hexojs/hexojs.github.io
-  branch: main
