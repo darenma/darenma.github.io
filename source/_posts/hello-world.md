@@ -1,38 +1,16 @@
 ---
-title: Hello World
+title: 静待至日
+tags: 杂项
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+#### 《歌金之剑》第一卷即将降临。
+初次更新有三章，之后每周更新一章，除非特别告知。
 
-## Quick Start
+#### 写作是我存在的理由
+    *关于本书*
+庞杂的、陈旧的、繁复的、悲哀的、生涩的、灿烂的、幽微的、和缓的、此在的、未竟的、我的。
 
-### Create a new post
 
-``` bash
-$ hexo new "My New Post"
-```
 
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+#### 特别致谢
+Tao Liu; Renrong Liu; Yunbo Liu; Ben Sipes;
+<!-- More info: [Deployment](https://hexo.io/docs/one-command-deployment.html) -->
