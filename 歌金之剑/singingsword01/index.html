@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <!-- title -->
+
+
+    
+
+<!-- keywords -->
+
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="author" content="LightWeaver">
+    <meta name="renderer" content="webkit">
+    <meta name="copyright" content="LightWeaver">
+    
+        <meta name="keywords" content="Novel,歌金之剑,泡影集">
+    
+    <meta name="description" content="">
+    <meta name="description" content="第一章： 逃亡路1529年。   十七年后，当富可敌国的巴辛托斯·蔗芦辗转周旋，花费重金，托人请霓夏女士出山，好教他女儿学剑的时候，不会相信她曾是一名无耻夜盗的荒唐传言。上个月，霓夏最后一次跟着“扁鲨”丹狄出手，目标就是蔗芦家位于北叠镇的别墅；夜盗们倾巢出动，一行九人偷到了三箱珠宝、几卷魔法绘画、十六枚古代钱币，外加一柄剑。   但是现在霓夏两手空空，满脸泥污，还刚在浊暗的夜色里连续狂奔了七条街。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="第一章-逃亡路">
+<meta property="og:url" content="https://darenma.github.io/%E6%AD%8C%E9%87%91%E4%B9%8B%E5%89%91/singingsword01/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="第一章： 逃亡路1529年。   十七年后，当富可敌国的巴辛托斯·蔗芦辗转周旋，花费重金，托人请霓夏女士出山，好教他女儿学剑的时候，不会相信她曾是一名无耻夜盗的荒唐传言。上个月，霓夏最后一次跟着“扁鲨”丹狄出手，目标就是蔗芦家位于北叠镇的别墅；夜盗们倾巢出动，一行九人偷到了三箱珠宝、几卷魔法绘画、十六枚古代钱币，外加一柄剑。   但是现在霓夏两手空空，满脸泥污，还刚在浊暗的夜色里连续狂奔了七条街。">
+<meta property="og:locale">
+<meta property="article:published_time" content="2024-06-25T21:47:46.278Z">
+<meta property="article:modified_time" content="2024-06-28T16:34:40.778Z">
+<meta property="article:author" content="LightWeaver">
+<meta property="article:tag" content="正文">
+<meta name="twitter:card" content="summary">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="icon" href="/assets/harp.ico">
+    
+    <title>第一章-逃亡路 · Aphro Novel</title>
+    <!-- /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
+/* This file is meant as a standalone workflow for
+- testing support for link[rel=preload]
+- enabling async CSS loading in browsers that do not support rel=preload
+- applying rel preload css once loaded, whether supported or not.
+*/ -->
+<script>
+    (function (w) {
+        'use strict'
+        // rel=preload support test
+        if (!w.loadCSS) {
+            w.loadCSS = function () {}
+        }
+        // define on the loadCSS obj
+        var rp = (loadCSS.relpreload = {})
+        // rel=preload feature support test
+        // runs once and returns a function for compat purposes
+        rp.support = (function () {
+            var ret
+            try {
+                ret = w.document.createElement('link').relList.supports('preload')
+            } catch (e) {
+                ret = false
+            }
+            return function () {
+                return ret
+            }
+        })()
+
+        // if preload isn't supported, get an asynchronous load by using a non-matching media attribute
+        // then change that media back to its intended value on load
+        rp.bindMediaToggle = function (link) {
+            // remember existing media attr for ultimate state, or default to 'all'
+            var finalMedia = link.media || 'all'
+
+            function enableStylesheet() {
+                link.media = finalMedia
+            }
+
+            // bind load handlers to enable media
+            if (link.addEventListener) {
+                link.addEventListener('load', enableStylesheet)
+            } else if (link.attachEvent) {
+                link.attachEvent('onload', enableStylesheet)
+            }
+
+            // Set rel and non-applicable media type to start an async request
+            // note: timeout allows this to happen async to let rendering continue in IE
+            setTimeout(function () {
+                link.rel = 'stylesheet'
+                link.media = 'only x'
+            })
+            // also enable media after 3 seconds,
+            // which will catch very old browsers (android 2.x, old firefox) that don't support onload on link
+            setTimeout(enableStylesheet, 3000)
+        }
+
+        // loop through link elements in DOM
+        rp.poly = function () {
+            // double check this to prevent external calls from running
+            if (rp.support()) {
+                return
+            }
+            var links = w.document.getElementsByTagName('link')
+            for (var i = 0; i < links.length; i++) {
+                var link = links[i]
+                // qualify links to those with rel=preload and as=style attrs
+                if (
+                    link.rel === 'preload' &&
+                    link.getAttribute('as') === 'style' &&
+                    !link.getAttribute('data-loadcss')
+                ) {
+                    // prevent rerunning on link
+                    link.setAttribute('data-loadcss', true)
+                    // bind listeners to toggle media back
+                    rp.bindMediaToggle(link)
+                }
+            }
+        }
+
+        // if unsupported, run the polyfill
+        if (!rp.support()) {
+            // run once at least
+            rp.poly()
+
+            // rerun poly on an interval until onload
+            var run = w.setInterval(rp.poly, 500)
+            if (w.addEventListener) {
+                w.addEventListener('load', function () {
+                    rp.poly()
+                    w.clearInterval(run)
+                })
+            } else if (w.attachEvent) {
+                w.attachEvent('onload', function () {
+                    rp.poly()
+                    w.clearInterval(run)
+                })
+            }
+        }
+
+        // commonjs
+        if (typeof exports !== 'undefined') {
+            exports.loadCSS = loadCSS
+        } else {
+            w.loadCSS = loadCSS
+        }
+    })(typeof global !== 'undefined' ? global : this)
+</script>
+
+    <style type="text/css">
+    @font-face {
+        font-family: 'Oswald-Regular';
+        src: url("/font/Oswald-Regular.ttf");
+    }
+
+    body {
+        margin: 0;
+    }
+
+    header,
+    footer,
+    .back-top,
+    .sidebar,
+    .container,
+    .site-intro-meta,
+    .toc-wrapper {
+        display: none;
+    }
+
+    .site-intro {
+        position: relative;
+        z-index: 3;
+        width: 100%;
+        /* height: 50vh; */
+        overflow: hidden;
+    }
+
+    .site-intro-placeholder {
+        position: absolute;
+        z-index: -2;
+        top: 0;
+        left: 0;
+        width: calc(100% + 300px);
+        height: 100%;
+        background: repeating-linear-gradient(-45deg, #444 0, #444 80px, #333 80px, #333 160px);
+        background-position: center center;
+        transform: translate3d(-226px, 0, 0);
+        animation: gradient-move 2.5s ease-out 0s infinite;
+    }
+
+    @keyframes gradient-move {
+        0% {
+            transform: translate3d(-226px, 0, 0);
+        }
+        100% {
+            transform: translate3d(0, 0, 0);
+        }
+    }
+</style>
+
+    <link rel="preload" href="/css/style.css?v=20240606" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="/css/dark.css?v=20240606" as="style">
+    <link rel="stylesheet" href="/css/dark.css">
+    <link rel="stylesheet" href="/css/mobile.css?v=20240606" media="(max-width: 960px)">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" as="script">
+    <link rel="preload" href="/scripts/main.js?v=20240606" as="script">
+    <link rel="preload" href="/scripts/dark.js?v=20240606" as="script">
+    <link rel="preload" href="/font/Oswald-Regular.ttf" as="font" crossorigin>
+    <link rel="preload" href="https://at.alicdn.com/t/font_327081_1dta1rlogw17zaor.woff" as="font" crossorigin>
+    <!-- algolia -->
+    
+    <!-- 百度统计  -->
+    
+    <!-- Google tag (gtag.js) -->
+    
+
+<meta name="generator" content="Hexo 7.2.0"></head>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script type="text/javascript">
+        if (typeof window.$ == undefined) {
+            console.warn('jquery load from jsdelivr failed, will load local script')
+            document.write('<script src="/lib/jquery.min.js" />')
+        }
+    </script>
+    
+        <body class="post-body">
+    
+        <!-- header -->
+        <header class="header header-mobile">
+    <!-- top read progress line -->
+    <div class="header-element">
+        <div class="read-progress"></div>
+    </div>
+    <!-- sidebar menu button -->
+    <div class="header-element">
+        
+            <div class="header-sidebar-menu">
+        
+            
+                <div style="padding-left: 1px;">&#xe775;</div>
+            
+        </div>
+    </div>
+    <!-- header actions -->
+    <div class="header-actions">
+        <!-- theme mode switch button -->
+        <span class="header-theme-btn header-element">
+            <i class="fas fa-adjust"></i>
+        </span>
+        <!-- back to home page text -->
+        <span class="home-link header-element">
+            <a href=/>月下樨地</a>
+        </span>
+    </div>
+    <!-- toggle banner for post layout -->
+    
+        
+            <div class="banner">
+        
+            <div class="blog-title header-element">
+                <a href="/">月下樨地</a>
+            </div>
+            <div class="post-title header-element">
+                <a href="#" class="post-name">第一章-逃亡路</a>
+            </div>
+        </div>
+    
+</header>
+
+        <!-- fixed footer -->
+        <footer class="footer-fixed">
+    <!-- back to top button -->
+    <div class="footer-fixed-element">
+        
+            <div class="back-top back-top-hidden">
+        
+        
+            <div>&#xe639;</div>
+        
+        </div>
+    </div>
+</footer>
+
+        <!-- wrapper -->
+        <div class="wrapper">
+            <div class="site-intro" style="
+
+
+
+
+
+
+
+    height:50vh;
+
+">
+    
+    <!-- 主页  -->
+    
+        
+    <!-- 404页  -->
+    
+    <div class="site-intro-placeholder"></div>
+    <div class="site-intro-img" style="background-image: url(/intro/post-bg.jpg)"></div>
+    <div class="site-intro-meta">
+        <!-- 标题  -->
+        <h1 class="intro-title">
+            <!-- 主页  -->
+            
+                第一章-逃亡路
+            <!-- 404 -->
+            
+        </h1>
+        <!-- 副标题 -->
+        <p class="intro-subtitle">
+            <!-- 主页副标题  -->
+            
+                
+            <!-- 404 -->
+            
+        </p>
+        <!-- 文章页 meta -->
+        
+            <div class="post-intros">
+                <!-- 文章页标签  -->
+                
+                    <div class= post-intro-tags >
+    
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags="正文">正文</a>
+    
+</div>
+
+                
+                <!-- 文章字数统计 -->
+                
+                    <div class="post-intro-read">
+                        <span>字数统计: <span class="post-count word-count">3.5k</span>阅读时长: <span class="post-count reading-time">11 min</span></span>
+                    </div>
+                
+                <div class="post-intro-meta">
+                    <!-- 撰写日期 -->
+                    <span class="iconfont-archer post-intro-calander">&#xe676;</span>
+                    <span class="post-intro-time">2024/06/25</span>
+                    <!-- busuanzi -->
+                    
+                        <span id="busuanzi_container_page_pv" class="busuanzi-pv">
+                            <span class="iconfont-archer post-intro-busuanzi">&#xe602;</span>
+                            <span id="busuanzi_value_page_pv"></span>
+                        </span>
+                    
+                    <!-- 文章分享 -->
+                    <span class="share-wrapper">
+                        <span class="iconfont-archer share-icon">&#xe71d;</span>
+                        <span class="share-text">Share</span>
+                        <ul class="share-list">
+                            <li class="iconfont-archer share-qr" data-type="qr">&#xe75b;
+                                <div class="share-qrcode"></div>
+                            </li>
+                            <li class="iconfont-archer" data-type="weibo">&#xe619;</li>
+                            <li class="iconfont-archer" data-type="qzone">&#xe62e;</li>
+                            <li class="iconfont-archer" data-type="twitter">&#xe634;</li>
+                            <li class="iconfont-archer" data-type="facebook">&#xe67a;</li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
+        
+    </div>
+</div>
+
+            <script>
+  // get user agent
+  function getBrowserVersions() {
+    var u = window.navigator.userAgent
+    return {
+      userAgent: u,
+      trident: u.indexOf('Trident') > -1, //IE内核
+      presto: u.indexOf('Presto') > -1, //opera内核
+      webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+      gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+      mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+      ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+      android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器
+      iPhone: u.indexOf('iPhone') > -1 || u.indexOf('Mac') > -1, //是否为iPhone或者安卓QQ浏览器
+      iPad: u.indexOf('iPad') > -1, //是否为iPad
+      webApp: u.indexOf('Safari') == -1, //是否为web应用程序，没有头部与底部
+      weixin: u.indexOf('MicroMessenger') == -1, //是否为微信浏览器
+      uc: u.indexOf('UCBrowser') > -1, //是否为android下的UC浏览器
+    }
+  }
+  var browser = {
+    versions: getBrowserVersions(),
+  }
+  console.log('userAgent: ' + browser.versions.userAgent)
+
+  // callback
+  function fontLoaded() {
+    console.log('font loaded')
+    if (document.getElementsByClassName('site-intro-meta')) {
+      document
+        .getElementsByClassName('intro-title')[0]
+        .classList.add('intro-fade-in')
+      document
+        .getElementsByClassName('intro-subtitle')[0]
+        .classList.add('intro-fade-in')
+      var postIntros = document.getElementsByClassName('post-intros')[0]
+      if (postIntros) {
+        postIntros.classList.add('post-fade-in')
+      }
+    }
+  }
+
+  // UC不支持跨域，所以直接显示
+  function asyncCb() {
+    if (browser.versions.uc) {
+      console.log('UCBrowser')
+      fontLoaded()
+    } else {
+      WebFont.load({
+        custom: {
+          families: ['Oswald-Regular'],
+        },
+        loading: function () {
+          // 所有字体开始加载
+          // console.log('font loading');
+        },
+        active: function () {
+          // 所有字体已渲染
+          fontLoaded()
+        },
+        inactive: function () {
+          // 字体预加载失败，无效字体或浏览器不支持加载
+          console.log('inactive: timeout')
+          fontLoaded()
+        },
+        timeout: 5000, // Set the timeout to two seconds
+      })
+    }
+  }
+
+  function asyncErr() {
+    console.warn('script load from CDN failed, will load local script')
+  }
+
+  // load webfont-loader async, and add callback function
+  function async(u, cb, err) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0]
+    o.src = u
+    if (cb) {
+      o.addEventListener(
+        'load',
+        function (e) {
+          cb(null, e)
+        },
+        false
+      )
+    }
+    if (err) {
+      o.addEventListener(
+        'error',
+        function (e) {
+          err(null, e)
+        },
+        false
+      )
+    }
+    s.parentNode.insertBefore(o, s)
+  }
+
+  var asyncLoadWithFallBack = function (arr, success, reject) {
+    var currReject = function () {
+      reject()
+      arr.shift()
+      if (arr.length) async(arr[0], success, currReject)
+    }
+
+    async(arr[0], success, currReject)
+  }
+
+  asyncLoadWithFallBack(
+    [
+      'https://cdn.jsdelivr.net/npm/webfontloader@1.6.28/webfontloader.min.js',
+      'https://cdn.bootcss.com/webfont/1.6.28/webfontloader.js',
+      "/lib/webfontloader.min.js",
+    ],
+    asyncCb,
+    asyncErr
+  )
+</script>
+
+            <img class="loading" src="/assets/loading.svg" style="display: block; margin: 6rem auto 0 auto; width: 6rem; height: 6rem;" />
+            <div class="container container-unloaded">
+                <main class="main post-page">
+    <article class="article-entry">
+        <h3 id="第一章：-逃亡路"><a href="#第一章：-逃亡路" class="headerlink" title="第一章： 逃亡路"></a>第一章： 逃亡路</h3><p>1529年。</p>
+<!-- 如果十七年后，也就是1546年，桑提亚王得知，在那个曾改变了密赫拉大陆无数人命运的至关重要的夜晚，他的继承人却正灰头土脸地逃亡在肮脏的小巷里，躲避巡警队的追捕，他一定会硬撑着在临终前撤销自己的遗命。 -->
+
+<p>十七年后，当富可敌国的巴辛托斯·蔗芦辗转周旋，花费重金，托人请霓夏女士出山，好教他女儿学剑的时候，不会相信她曾是一名无耻夜盗的荒唐传言。上个月，霓夏最后一次跟着“扁鲨”丹狄出手，目标就是蔗芦家位于北叠镇的别墅；夜盗们倾巢出动，一行九人偷到了三箱珠宝、几卷魔法绘画、十六枚古代钱币，外加一柄剑。</p>
+<!-- 所幸霓夏一直把自己做贼的经历隐藏得很好。 -->
+
+<p>但是现在霓夏两手空空，满脸泥污，还刚在浊暗的夜色里连续狂奔了七条街。这是逃亡的第四天，她的体力接近极限，呼吸急促，小腿肚酸痛，脚踝皮肤紧绷，每迈开一步都发出更大的噪声。好在追兵跟来之前，她及时抵达了地图上标出的下一处祭坛。这座焦咖那祭坛位于索风巷和城东第三街构成的丁字路口，岔路旁堆着一座垃圾山，石灰石打造的祭台主体掩藏在一株裘枫树的下面，形如一只干枯的手臂托举着一口旧碗，不留神很容易错过。霓夏放慢脚步靠近祭坛，从猎装外套的大口袋里掏出她随身必带的白色布囊——这绣法精致的布囊曾归“慷慨的”乔修玛领主所有，为他搜集来的贵重宝石防尘，如今却盛着小半袋子呛人的白色炉灰。</p>
+<p>霓夏左手伸进布囊，攥出一把炉灰，念念有词地倒进祭坛上的石碗里。她用右手食指在浅浅的灰堆里画了一个樱桃记号：一道向下的竖线，接着一个圆圈，在圈的右上角延伸出一条短线，以另一个圆圈收尾。她掂量了一下，剩余的炉灰不多了，但这是她逃出生天的全部希望。</p>
+<p>小棱趴在她的头上，好奇地盯着主人做着这一切。霓夏怕他在自己奔跑时掉下去，用一根鞋带绕过小棱的龟壳，系在她的下巴上。</p>
+<p>简单的仪式结束后，祭坛没有任何变化。没有发光，没有冒烟，也没有奇怪的声音。但霓夏就是知道，保护神焦咖那已经回应她的祈祷，一如往常。潜在树后，观察着大街的方向，霓夏开始深呼吸。</p>
+<p>几次呼吸之间，祝福降临。首当其冲的变化体现在感官上，尤其是听觉。之前几难分辨的脚步声，现在响亮得像是一排森林被飓风吹倒，耳中听见的声音有了差异感和距离感——巡警们步伐杂乱，渐行渐远，明显是跟丢了；而那个自称猎罪者的男人就在两条街外的转角处，且正向此处飞奔而来。她要抓紧了。</p>
+<p>霓夏扯下大衣的腰带，丢往东面的路口作为误导——尽管这在老练的追兵面前几乎没用——转身向西飞奔而去。焦咖那的祝福让她步履轻盈。转过两个弯，她跑进一条延伸向西的石板路街道，庆幸自己匆忙间没选错路。路的尽头是一道矮墙，她在快接近时缩紧腰腹、放低重心，左脚轻点侧壁，右手在墙顶一撑，飞身越过墙头，着陆在一条铺满各色鹅卵石的小径。她神经质地拍拍头顶，确认小棱还在。此时已几乎听不见追兵的声音了，但还不是时候放松警惕。绘城是一座完全陌生的城市，她祈求着焦咖那给她更多的时间，同时放慢脚步，用余光留神附近黑洞洞的门户，顺着房檐的阴影向前蹑行。</p>
+<p>悄声又走过两个街区，霓夏藏进一所住屋的门洞下，借着残月的微光再次看一眼地图，按指示拐进右边的图里安路。这是一条住宅街，房屋式样是芳菲最流行的独栋两层宅邸，她成功找到了今晚的落脚点——杏花纹样的棕红色木门、左上方吊着一盏黑宵石灯。在老大的计划里，她应该在这借住三夜避避风头，趁机用炊烟发出信号，等猎罪者放弃搜捕她后再出发，去谒城和其他人汇合。</p>
+<p>然而，扁鲨老大死了。其他人在被捕后如果没有叛变，那也已经死了。她现在是最后的夜盗。</p>
+<p>鱼季刚进入第二个星期，绘城大部分街巷还弥漫着浓重的白雾。可是这附近的空气却显得格外清新冷洌。霓夏轻轻叩了叩门，没听见回应，便从腰带的里侧抽出一块薄铜片，把它滑进对开木门的中缝，试图撬开门闩。这种随身型号的开锁器具不长，她得伏在门上操作。突然，这个过程变得意外轻松；咔嗒一声，闩木应声而落，霓夏跌进门去，和正在开门的男孩撞了个满怀。</p>
+<p>|—————————————————————————————————-———————|</p>
+<p>黑发的女主人给年轻的不速之客泡了一杯甘蔗茶，又让男孩去检查一下门窗。被霓夏几乎成功撬门后，他从后院的储藏间里取出一道铁门闩换上，两端有额外的螺钮固定。王国对傲坎地区的圣战拖到了第三年的上半年，即使在目前远离战火的绘城，市民也要准备好面对最坏的情况。</p>
+<p>客厅不大，但摆设很温馨，大部分家具是樾木材质，靠近窗的位置有两部一人高的金属机器。原木餐桌旁摆着数把铺着软垫的扶手椅，霓夏蹲坐在正对门口的那把上，整个人缩成一团，不是因为害怕，而是冷，以及盗贼的习惯使然。先前她脱掉已经沾满泥尘的外套，把小棱安置在窗台上的一个空花盆里。这房子没有任何取暖设备，壁炉看上去闲置了几个世纪，甚至还开着一扇该死的天窗。月光像雪一样洒进来。</p>
+<p>注意到她的颤抖，那个看起来像家中姐姐的女人苦笑道：“不好意思，我们的复写机需要保持低温，所以家里一直这么冷。”她递来瓷杯，“喝点热茶会好一些吧。”</p>
+<p>霓夏接过杯柄，低头仔细观察这杯饮料，甘蔗根、紫苜蓿和一些她认不出来的叶子漂浮在棕黄色的液体里，喝下去和闻起来一样甜得过头，一定另加了糖。没啜几口，刚刚撞到她的男孩已经回来了，和姐姐点头致意，坐进她旁边那把更高一点的椅子。霓夏瞥了眼挂钟，离日出还有一个多小时。</p>
+<p>见霓夏目光低垂，没有说话的意思，女主人叹了口气，仿佛她也不擅长开启话端：“既然如此，我们认识一下吧。我叫维拉斯·觅流，你可以叫我维拉。这是我的弟弟缪可。我们是……雕刻匠和复写师，和城里大多数人一样，天天都得工作，才能赚出吃穿用度。当然，偶尔也接待像你这样的小家伙。”她给弟弟递去一个眼神，这个约摸十五六岁的男孩挠挠头，同样一言不发。他只是好奇地盯着霓夏，尽管明白他没有恶意，霓夏还是觉得哪里不太自在，更快速地喝起了茶。</p>
+<p>在二人的目光中沉默了近五分钟，霓夏恋恋不舍地喝完最后一口热茶，把杯子小心地捧在手心，终于挤出几个字：“你们已经知道我会来？”</p>
+<p>“莫尔”，维拉斯又疲倦地叹了口气，“我们那个不着调的舅舅，几天前留了口信，说今夜会有个重要人物抵达……”她在“重要人物”四个字上加了重音，“让我们尽可能满足你的要求。”</p>
+<p>“我没有什么要求，也不重要。老大他……老大只说让我三天后出城去见他，可是他已经去不了了。也许……我应该早点离开，我不想给你们添麻烦。” 霓夏茫然地盯着维拉斯的灯芯绒睡袍，绛红色让她联想到濒死的同伴们渐渐变黑的血。还有那个长大衣男人在杀死凡赫玛时冷漠而残忍的表情。她最不愿记起的是，那人转头看向她，眼神中流露出一种仿似痛苦的情感，让这段经历显得愈发恐怖阴冷。</p>
+<p>叫缪可的男孩开口了：“我听说过你。你是他们的一员，伤痕夜盗。”他从霓夏的右手边探出头来，双手无意识地揉捏着餐巾，显得倒比刚逃亡至此的她更加紧张。</p>
+<p>她打了个冷颤，回过神来：“嗯。我叫霓夏，是第九夜盗。我们——”</p>
+<p>“你们很厉害。听说去年你们偷了一尊神像，好像值几万壳币，但是却没拿去卖掉，而是建了个小教堂。”他迫不及待地打断，语气却并不太兴奋。这男孩说话时偶尔有不连贯的停顿，幸好当夜盗的这些年霓夏游走四方，听过不少更奇怪的口音和断句，所以还是能明白。</p>
+<p>“啊，那是世上最后一尊琐那神像，她是舞蹈之神。那次是最刺激的，凡赫玛和里尔的计划简直完美无缺。”维拉斯注意到，这是女孩今晚第一次露出笑容。转瞬即逝。</p>
+<p>“听说上个月，你们又偷了一柄剑？”</p>
+<p>“没错，歌金之剑。”</p>
+<p>据说，铸造歌金之剑一共花了十五年。这剑是铸剑大师优雾生涯中最后一次挑战，也是最宏大的一次。三十年前，芳菲全境遭到众多陨石打击，优雾搜集了各地的陨铁谜金中最坚硬的核心，用以熔铸剑身。在密赫拉渊谷的火山坑畔锤炼了五年后，又采孤绝冰海之水来淬火。半途，优雾病逝，她的高徒醒湖接手了铸造。剑柄是由歌唱沙丘的细沙熔炼而成的玻璃制作，剑鞘用芳菲幽林的月桂树皮和圣树松蜡鞣制而成。传说中的女术士夸岳祈用一枚雕玉赋予这柄剑以灵魂，使得它具有斩断锋锐的锋锐，和抵抗魔法的魔法。</p>
+<p>这样的一把剑，自从被贵族之首的蔗芦家收藏以来，就秘密封存在宅邸的地下，守卫森严。</p>
+<p>霓夏舔舔嘴唇，下意识看了看杯底：“……总之，我们从执政官的住处取回了那把剑，老大她们都说应该把剑给我，因为我是从歌唱沙丘出生的。就连凤凰都立马就同意了！换作平时，她肯定要和我争好一阵子，虽然最后都会让着我。然后，然后……”</p>
+<p>“然后呢？”缪可很想知道后续。</p>
+<p>“然后，有人叛变，老大被暗杀，我们剩下的夜盗分头逃跑，剑却被我弄丢了。”她的语气瞬间消沉下去，男孩也露出说错话的后悔神色，“上个星期，我和凡赫玛逃到欧格的落脚点。为了掩护我，她带着剑鞘跑出去，最后被那个恐怖的男人抓住了。猎罪者杀死了她。凡赫玛把祝福炉灰都留给了我，所以只有我逃到这里，只剩我一个。”</p>
+<p>有一刹那，维拉觉得霓夏会落下泪来。但是这女孩出乎意料地坚强。她只是环抱着膝盖，半闭双眼，不再说话。她从霓夏手里取下杯子，又注满热水。“小心烫，”她说，“等喝完这杯，今晚就先休息吧，我们明天还可以慢慢聊。不用担心，想住多久都可以，只要你愿意。”</p>
+<p>霓夏微微点头，看着维拉绕到她和缪可的椅背后面，一手揉着一个人的脑袋，打了个大大的哈欠。</p>
+<p>“哦，今天你可以先睡我卧室，反正我也打算起来工作了。”维拉用手背揉揉眼睛，补充道，“白天我把小房间收拾下，那有张很舒服的单人床。事先我们不知道是一个小姑娘要来。”</p>
+<p>缪可瘪瘪嘴，盯着有些疑惑的霓夏说：“都怪舅舅说得不清不楚，害我们以为是他的债主仇家，只准备了钱。还有别的手段。”他的眼神变得凌厉，口齿也清晰起来：“他常说，在这个年头，我们必须勇敢地保护家人。”</p>
+<p>霓夏抿了抿嘴。她可没被吓到，一点儿也没有。那些“手段”，她刚进屋就发现了。迎接她时，维拉斯的后腰别着把小刀，缪可一直站在墙上挂着的一柄饰剑侧近，茶桌上还摆着金花韭和风鳍草——里尔教过她如何辨别这两种看起来无害的烈性毒药。至于杯里那些不认识的草药，现在看来只是当地人的特色茶饮……</p>
+<p>好吧，她还是被吓到了一点儿，只有一点儿。毕竟她可是放心地喝了两大杯。如果扁鲨老大信得过这家人，她就没理由怀疑她们。夜盗的第一法则就是互相信任。</p>
+<p>老大从来没有骗过她。</p>
+<!-- More info: [Deployment](https://hexo.io/docs/one-command-deployment.html) -->
+
+    </article>
+    <!-- license -->
+    
+        <div class="license-wrapper">
+            <p>原文作者：<a href="https://darenma.github.io">LightWeaver</a>
+            <p>原文链接：<a href="https://darenma.github.io/%E6%AD%8C%E9%87%91%E4%B9%8B%E5%89%91/singingsword01/">https://darenma.github.io/%E6%AD%8C%E9%87%91%E4%B9%8B%E5%89%91/singingsword01/</a>
+            <p>发表日期：<a href="https://darenma.github.io/%E6%AD%8C%E9%87%91%E4%B9%8B%E5%89%91/singingsword01/">June 25th 2024, 2:47:46 pm</a>
+            <p>更新日期：<a href="https://darenma.github.io/%E6%AD%8C%E9%87%91%E4%B9%8B%E5%89%91/singingsword01/">June 28th 2024, 9:34:40 am</a>
+            <p>版权声明：本文采用<a rel="license noopener" target="_blank" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>进行许可</p>
+        </div>
+    
+    <!-- paginator -->
+    <ul class="post-paginator">
+        <li class="next">
+            
+        </li>
+        <li class="previous">
+            
+                <div class="prevSlogan">Previous Post</div>
+                <a href="/uncategorized/hello-world/" title="至日已至">
+                    <div class="prevTitle">至日已至</div>
+                </a>
+            
+        </li>
+    </ul>
+    <!-- comment -->
+    
+        <div class="post-comment">
+            <!-- 来必力 City 版安装代码 -->
+
+
+            
+
+            
+
+            
+
+            <!-- utteranc评论 -->
+
+
+            <!-- partial('_partial/comment/changyan') -->
+            <!--PC版-->
+
+
+            
+            
+
+            
+
+        </div>
+    
+    <!-- timeliness note -->
+    <!-- idea from: https://hexo.fluid-dev.com/posts/hexo-injector/#%E6%96%87%E7%AB%A0%E6%97%B6%E6%95%88%E6%80%A7%E6%8F%90%E7%A4%BA -->
+    
+    <!-- Mathjax -->
+    
+</main>
+
+                <!-- profile -->
+                
+            </div>
+            <footer class="footer footer-unloaded">
+    <!-- social  -->
+    
+        <div class="social">
+            
+    
+        
+            
+                <a href="mailto:pokemonma987@gmail.com" class="iconfont-archer email" title=email ></a>
+            
+        
+    
+        
+            
+                <a href="//github.com/darenma" class="iconfont-archer github" target="_blank" title=github></a>
+            
+        
+    
+        
+            
+                <a href="/%E7%BB%87%E5%85%89%E9%AA%91%E5%A3%AB" class="iconfont-archer douban" target="_blank" title=douban></a>
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+        </div>
+    
+    <!-- powered by Hexo  -->
+    <div class="copyright">
+        <span id="hexo-power">Powered by <a href="https://hexo.io/" target="_blank">Hexo</a></span><span class="iconfont-archer power">&#xe635;</span><span id="theme-info">theme <a href="https://github.com/fi3ework/hexo-theme-archer" target="_blank">Archer</a></span>
+    </div>
+    <!-- website approve for Chinese user -->
+    
+    <!-- 不蒜子  -->
+    
+        <div class="busuanzi-container">
+            
+             
+                <span id="busuanzi_container_site_pv">PV: <span id="busuanzi_value_site_pv"></span> :)</span>
+            
+        </div>
+    	
+</footer>
+
+        </div>
+        <!-- toc -->
+        
+            <div class="toc-wrapper toc-wrapper-loding" style=
+
+
+
+
+
+
+
+    top:50vh;
+
+>
+                <div class="toc-catalog">
+                    <span class="iconfont-archer catalog-icon">&#xe613;</span><span>CATALOG</span>
+                </div>
+                <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0%EF%BC%9A-%E9%80%83%E4%BA%A1%E8%B7%AF"><span class="toc-number">1.</span> <span class="toc-text">第一章： 逃亡路</span></a></li></ol>
+            </div>
+        
+        <!-- sidebar -->
+        <div class="sidebar sidebar-hide">
+    <ul class="sidebar-tabs sidebar-tabs-active-0">
+        <li class="sidebar-tab-archives"><span class="iconfont-archer">&#xe67d;</span><span class="tab-name">Archive</span></li>
+        <li class="sidebar-tab-tags"><span class="iconfont-archer">&#xe61b;</span><span class="tab-name">Tag</span></li>
+        <li class="sidebar-tab-categories"><span class="iconfont-archer">&#xe666;</span><span class="tab-name">Cate</span></li>
+    </ul>
+    <div class="sidebar-content sidebar-content-show-archive">
+        <div class="sidebar-panel-archives">
+    <!-- 在 ejs 中将 archive 按照时间排序 -->
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    
+    
+    
+    <div class="total-and-search">
+        <div class="total-archive">
+        Total : 3
+        </div>
+        <!-- search  -->
+        
+    </div>
+    
+    <div class="post-archive">
+    
+        
+            
+            
+            <div class="archive-year"> 2024 </div>
+            <ul class="year-list">
+            
+        
+        <li class="archive-post-item">
+            <span class="archive-post-date">06/25</span>
+            <a class="archive-post-title" href="/%E6%AD%8C%E9%87%91%E4%B9%8B%E5%89%91/singingsword01/">第一章-逃亡路</a>
+        </li>
+    
+        
+        <li class="archive-post-item">
+            <span class="archive-post-date">06/12</span>
+            <a class="archive-post-title" href="/uncategorized/hello-world/">至日已至</a>
+        </li>
+    
+        
+        <li class="archive-post-item">
+            <span class="archive-post-date">06/12</span>
+            <a class="archive-post-title" href="/%E6%AD%8C%E9%87%91%E4%B9%8B%E5%89%91/singingsword00/">第零章-往返</a>
+        </li>
+    
+    </div>
+</div>
+
+        <div class="sidebar-panel-tags">
+    <div class="sidebar-tags-name">
+        
+            <span class="sidebar-tag-name" data-tags="杂项">
+                <span class="iconfont-archer">&#xe606;</span>
+                杂项
+            </span>
+        
+            <span class="sidebar-tag-name" data-tags="正文">
+                <span class="iconfont-archer">&#xe606;</span>
+                正文
+            </span>
+        
+    </div>
+    <div class="iconfont-archer sidebar-tags-empty">&#xe678;</div>
+    <div class="tag-load-fail" style="display: none; color: #ccc; font-size: 0.6rem;">
+        缺失模块，请参考主题文档进行安装配置：https://github.com/fi3ework/hexo-theme-archer#%E5%AE%89%E8%A3%85%E4%B8%BB%E9%A2%98
+    </div> 
+    <div class="sidebar-tags-list"></div>
+</div>
+
+        <div class="sidebar-panel-categories">
+    <div class="sidebar-categories-name">
+    
+        <span class="sidebar-category-name" data-categories="歌金之剑">
+            <span class="iconfont-archer">&#xe60a;</span>
+            歌金之剑
+        </span>
+    
+    </div>
+    <div class="iconfont-archer sidebar-categories-empty">&#xe678;</div>
+    <div class="sidebar-categories-list"></div>
+</div>
+
+    </div>
+</div>
+
+        <!-- site-meta -->
+        <script>
+    var siteMetaRoot = "/"
+    if (siteMetaRoot === "undefined") {
+        siteMetaRoot = '/'
+    }
+    var siteMeta = {
+        url: "https://darenma.github.io",
+        root: siteMetaRoot,
+        author: "LightWeaver"
+    }
+</script>
+
+        <!-- import experimental options here -->
+        <!-- Custom Font -->
+
+
+        <!-- main func -->
+        <script src="/scripts/main.js?v=20240606"></script>
+        <!-- dark mode -->
+        <script src="/scripts/dark.js?v=20240606"></script>
+        <!-- fancybox -->
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" defer></script>
+        <!-- algolia -->
+        
+        <!-- busuanzi -->
+        
+            <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
+        
+        <!-- CNZZ -->
+        
+        <!-- async load share.js -->
+        
+            <script src="/scripts/share.js?v=20240606" async></script>
+        
+        <!-- mermaid -->
+        
+    </body>
+</html>
