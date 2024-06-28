@@ -1,16 +1,29 @@
 ---
-title: 静待至日
+title: 至日已至
 tags: 杂项
+toc: false
 ---
-#### 《歌金之剑》第一卷即将降临。
-初次更新有三章，之后每周更新一章，除非特别告知。
+
+#### 《歌金之剑》第一卷降临。
+
+初次发布三章，每周更新一章，除非特别告知。
+
 
 #### 写作是我存在的理由
-    *关于本书*
-庞杂的、陈旧的、繁复的、悲哀的、生涩的、灿烂的、幽微的、和缓的、此在的、未竟的、我的。
 
+    *关于本书*
+庞杂的、陈旧的、繁复的、悲戚的、生涩的、灿烂的、幽微的、和缓的、此在的、未竟的……
+我的。
 
 
 #### 特别致谢
-Tao Liu; Renrong Liu; Yunbo Liu; Ben Sipes;
+
+Tao Liu;
+Renrong Liu;
+Yunbo Liu;
+Ben Sipes;
+Cirilla Fiona Elen Riannon;
+fir3work (for the website template);
+ChatGPT; 
+
 <!-- More info: [Deployment](https://hexo.io/docs/one-command-deployment.html) -->
