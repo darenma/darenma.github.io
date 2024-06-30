@@ -8,8 +8,8 @@ signature: "忽如飞鸟栖枯枝"
 # SNS (you can custom the order)
 social:
   email: pokemonma987@gmail.com
-  github: //github.com/darenma
-  douban: "织光骑士"
+  # github: //github.com/darenma
+  # douban: "织光骑士"
   # wechat should be a path of qr-code image path
   wechat:
   # qq should be a path of qr-code image path
