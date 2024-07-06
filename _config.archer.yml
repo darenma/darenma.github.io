@@ -36,7 +36,7 @@ friends:
   # friendB: //www.google.com
 about:
   enable: true
-  image: '/intro/about-bg.jpg'
+  image: '/intro/about_inner.jpg'
 # Search for website
 search:
   enable: false
@@ -76,7 +76,7 @@ subtitle: '小说、诗歌、随想'
 # site haeder image
 site_header_image: '/intro/index-main.jpg'
 # post haeder image
-post_header_image: '/intro/post-bg.jpg'
+post_header_image: '/intro/page_opener.jpg'
 # 404 image
 _404_image: '/intro/404-bg.jpg'
 
