@@ -21,8 +21,10 @@ Tao Liu;
 Renrong Liu;
 Yunbo Liu;
 Ben Sipes;
+Chloe, for pointing out a bug that's not caused by me;
 Cirilla Fiona Elen Riannon;
-fir3work (for the website template);
+Robin "BingBing" S;
+fir3work, for the website template;
 ChatGPT;
 
 <!-- More info: [Deployment](https://hexo.io/docs/one-command-deployment.html) -->
