@@ -16,7 +16,7 @@ date: 2024/6/30 22:11:00
 庞杂的、陈旧的、繁复的、悲戚的、生涩的、灿烂的、幽微的、和缓的、此在的、未竟的……
 我的。
 
-[歌金之剑]（https://aphrowrite.com/uncategorized/menu/）
+[歌金之剑](https://aphrowrite.com/uncategorized/menu/)
 
 #### 特别致谢
 
