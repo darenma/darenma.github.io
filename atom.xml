@@ -6,7 +6,7 @@
   <link href="https://darenma.github.io/atom.xml" rel="self"/>
   
   <link href="https://darenma.github.io/"/>
-  <updated>2024-07-13T07:07:29.430Z</updated>
+  <updated>2024-07-13T07:10:36.135Z</updated>
   <id>https://darenma.github.io/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>更新履历</title>
     <link href="https://darenma.github.io/uncategorized/roadmap/"/>
     <id>https://darenma.github.io/uncategorized/roadmap/</id>
-    <published>2024-07-14T06:59:59.000Z</published>
-    <updated>2024-07-13T07:07:29.430Z</updated>
+    <published>2024-07-14T05:59:59.000Z</published>
+    <updated>2024-07-13T07:10:36.135Z</updated>
     
     <content type="html"><![CDATA[<h2 id="待办事项"><a href="#待办事项" class="headerlink" title="待办事项"></a>待办事项</h2><ul><li><input disabled="" type="checkbox"> 增加背景音乐功能</li><li><input disabled="" type="checkbox"> 增加留言板功能</li><li><input disabled="" type="checkbox"> 上传《泡影集》</li><li><input disabled="" type="checkbox"> 上传评分</li><li><input disabled="" type="checkbox"> 上传秘密项目</li></ul><h2 id="V0-2-引力乱流-2024-07-13"><a href="#V0-2-引力乱流-2024-07-13" class="headerlink" title="V0.2 引力乱流 2024-07-13"></a>V0.2 引力乱流 2024-07-13</h2><ul><li>更新了第四章</li><li>更新了更新日志、目录</li><li>更新了日期戳</li><li>更新了置顶文章</li></ul><ul><li>修正了谢维导致的首页时间紊乱</li><li>修正了GitHub Token授权过期的问题</li><li>修正了第二章中存在的一些格式问题</li></ul><h2 id="V0-1-人格复制-2024-07-06"><a href="#V0-1-人格复制-2024-07-06" class="headerlink" title="V0.1 人格复制 2024-07-06"></a>V0.1 人格复制 2024-07-06</h2><ul><li>更新了第三章</li><li>更新了RSS订阅</li><li>更新了友链（互推请洽）</li><li>更新了没东西的About页</li></ul><ul><li>修正了没有区分Branch导致的一系列问题</li><li>修正了文章头图为默认图片的问题</li></ul>]]></content>
     
@@ -188,9 +188,9 @@
     <link href="https://darenma.github.io/uncategorized/hello-world/"/>
     <id>https://darenma.github.io/uncategorized/hello-world/</id>
     <published>2024-07-01T05:11:00.000Z</published>
-    <updated>2024-07-13T06:51:26.062Z</updated>
+    <updated>2024-07-13T07:10:14.920Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="《歌金之剑》第一卷降临。"><a href="#《歌金之剑》第一卷降临。" class="headerlink" title="《歌金之剑》第一卷降临。"></a>《歌金之剑》第一卷降临。</h4><p>初次发布三章，每周更新一章，除非特别告知。</p><pre><code>*关于本书*</code></pre><p>庞杂的、陈旧的、繁复的、悲戚的、生涩的、灿烂的、幽微的、和缓的、此在的、未竟的……<br>我的。</p><p>[歌金之剑]（<a href="https://aphrowrite.com/uncategorized/menu/%EF%BC%89">https://aphrowrite.com/uncategorized/menu/）</a></p><h4 id="特别致谢"><a href="#特别致谢" class="headerlink" title="特别致谢"></a>特别致谢</h4><p>Tao Liu;<br>Renrong Liu;<br>Yunbo Liu;</p><p>Ben, for fantasy reading and writing advice;<br>Chloe, for pointing out a bug that’s not caused by me ^^ ;<br>Robin “BingBing” Sandell;</p><p>fir3work, for the website template;<br>ChatGPT;</p><p>Cirilla Fiona Elen Riannon;</p><!-- More info: [Deployment](https://hexo.io/docs/one-command-deployment.html) -->]]></content>
+    <content type="html"><![CDATA[<h4 id="《歌金之剑》第一卷降临。"><a href="#《歌金之剑》第一卷降临。" class="headerlink" title="《歌金之剑》第一卷降临。"></a>《歌金之剑》第一卷降临。</h4><p>初次发布三章，每周更新一章，除非特别告知。</p><pre><code>*关于本书*</code></pre><p>庞杂的、陈旧的、繁复的、悲戚的、生涩的、灿烂的、幽微的、和缓的、此在的、未竟的……<br>我的。</p><p><a href="https://aphrowrite.com/uncategorized/menu/">歌金之剑</a></p><h4 id="特别致谢"><a href="#特别致谢" class="headerlink" title="特别致谢"></a>特别致谢</h4><p>Tao Liu;<br>Renrong Liu;<br>Yunbo Liu;</p><p>Ben, for fantasy reading and writing advice;<br>Chloe, for pointing out a bug that’s not caused by me ^^ ;<br>Robin “BingBing” Sandell;</p><p>fir3work, for the website template;<br>ChatGPT;</p><p>Cirilla Fiona Elen Riannon;</p><!-- More info: [Deployment](https://hexo.io/docs/one-command-deployment.html) -->]]></content>
     
     
       
