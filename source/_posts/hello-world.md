@@ -20,11 +20,13 @@ abstract: 显志自序，亦蚌病成珠。
 Tao Liu;
 Renrong Liu;
 Yunbo Liu;
-Ben Sipes;
-Chloe, for pointing out a bug that's not caused by me;
-Cirilla Fiona Elen Riannon;
-Robin "BingBing" S;
+
+Ben, for fantasy reading and writing advice;
+Chloe, for pointing out a bug that's not caused by me ^^ ;
+Robin “BingBing” Sandell;
+
 fir3work, for the website template;
 ChatGPT;
 
+Cirilla Fiona Elen Riannon;
 <!-- More info: [Deployment](https://hexo.io/docs/one-command-deployment.html) -->
