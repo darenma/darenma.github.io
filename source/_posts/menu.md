@@ -20,9 +20,9 @@ sticky: 100
 
 第四章节：[火焰的决定](https://aphrowrite.com/%E6%AD%8C%E9%87%91%E4%B9%8B%E5%89%91/singingsword04/)
 
-第五章节：[大沙漠](https://aphrowrite.com/%E6%AD%8C%E9%87%91%E4%B9%8B%E5%89%91/singingsword05/)
+第五章节：[第三夜](https://aphrowrite.com/%E6%AD%8C%E9%87%91%E4%B9%8B%E5%89%91/singingsword05/)
 
-第六章节：[修行](https://aphrowrite.com/%E6%AD%8C%E9%87%91%E4%B9%8B%E5%89%91/singingsword06/)
+第六章节：[祝福](https://aphrowrite.com/%E6%AD%8C%E9%87%91%E4%B9%8B%E5%89%91/singingsword06/)
 
 第七章节：妖精
 
