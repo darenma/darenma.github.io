@@ -24,7 +24,7 @@ sticky: 100
 
 第六章节：[祝福](https://aphrowrite.com/%E6%AD%8C%E9%87%91%E4%B9%8B%E5%89%91/singingsword06/)
 
-第七章节：妖精
+第七章节：[逆火](https://aphrowrite.com/%E6%AD%8C%E9%87%91%E4%B9%8B%E5%89%91/singingsword07/)
 
 第八章节：新希望
 
