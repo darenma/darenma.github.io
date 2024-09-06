@@ -1,7 +1,7 @@
 ---
 title: 独角兽的星旅
 tags: 短打
-category: 《猎魔人》同人
+category: witcher
 abstract: 从一个脑洞衍生出的短篇《猎魔人》同人。不建议任何安全委员会职工阅读。
 date: 2024/9/5 16:57:41
 ---
